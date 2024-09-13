@@ -1,0 +1,30 @@
+.footer{
+    background-color: #252525;
+    color: #bfbfbf;
+}
+.image_section img{
+    max-width: 70%;
+    height: auto;
+}
+
+.footer h5{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 15px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+}
+.footer p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    margin-bottom: 15px;
+    letter-spacing: 1.2px;
+    text-align: left;
+}
+
+.image_footer img{
+    max-width: 30%;
+    height: auto;
+    margin-bottom: 15px;
+}

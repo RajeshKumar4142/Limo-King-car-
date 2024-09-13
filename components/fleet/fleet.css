@@ -1,0 +1,104 @@
+.fleet {
+    background-image: url(../../assets/fleet-bg-hp1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    background-position: center;
+    padding-top: 8rem;
+    /* margin-top: 5.8rem; */
+}
+
+.brand_car_section {
+    background-color: #ffffff;
+}
+
+.fleet h1 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 42px;
+    line-height: normal;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.car_brand_new button {
+    background-color: transparent;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    color: #333;
+}
+
+.car_brand_new button.active {
+    color: #00bcd4;
+    border-bottom: 2px solid #00bcd4;
+}
+
+.car_display .car_grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.car_item {
+    background-color: #ffffff;
+    padding: 20px;
+    /* border: 1px solid #ddd; */
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+.car_item img {
+    width: 100%;
+    height: auto;
+}
+
+.car_item h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.car_item h3:hover{
+    color: #007bff;
+    transition: color 0.1s ease-in-out;
+}
+
+.car_item ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 16px;
+    text-align: start;
+    margin: 10px 0;
+}
+
+.car_item ul li {
+    padding: 5px 0;
+    margin-left: 1rem;
+}
+
+.view_details {
+    background-color: #00bcd4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    text-align: start;
+    align-items: flex-start;
+}
+
+.price {
+    color: #00bcd4;
+    font-size: 18px;
+    margin-top: 10px;
+}

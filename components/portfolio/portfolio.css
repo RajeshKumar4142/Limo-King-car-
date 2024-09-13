@@ -1,0 +1,60 @@
+.service_h1 h1 {
+    color: #fff;
+    /* font-size: 53px; */
+    margin-top: 7rem;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+
+@media (max-width: 768px){
+    .service_h1 h1 {
+        font-size: 20px;
+    }
+}
+
+.span{
+    color: aquamarine;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.portfolio_grid{
+    background-color: #ffffff;
+}
+.portfolio_item img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    background-position: center;
+}
+
+.portfolio_item_hover h5{
+    color: #4d4a4a;
+    transition: 0.3s;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17px;   
+}
+.portfolio_item_hover h5:hover{
+    color: #1eacc7;
+    cursor: pointer;
+    transition: 0.3s;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17px;   
+}
+.portfolio_item_hover span{
+    color: #4d4a4a;
+    transition: 0.3s;
+    font-size: 15px;
+    font-weight: 600;
+    font-style: italic;
+}
+.portfolio_item_hover p{
+    color: #151212;
+    transition: 0.3s;
+    font-size: 14px;
+    opacity: 0.7;
+    font-weight: 600;
+    /* font-style: italic; */
+}

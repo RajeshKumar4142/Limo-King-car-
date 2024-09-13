@@ -1,0 +1,184 @@
+.page {
+    background-image: url('../../assets/title-big-bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 70vh;
+    background-position: center;
+    padding-top: 8rem;
+    /* margin-top: 5.8rem; */
+  }
+  .page_h1 h1 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 42px;
+    line-height: normal;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+  
+  .page_2 {
+    background-color: #ffffff;
+  }
+  .page_2 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 3rem;
+  }
+  .page_2 h2 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 25px;
+    color: #333333;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+  }
+  .page_2 p {
+    font-family: "Montserrat";
+    font-size: 14px;
+  }
+  
+  .page_3 {
+    color: #fff;
+    background-color: #323232;
+    padding: 5rem 0;
+    background-image: url('../../assets/skill-bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  
+  
+  .counter-section {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+  }
+  
+  .counter-item {
+    text-align: center;
+  }
+  
+  .count {
+    font-size: 46px;
+    font-weight: 300;
+    color: #fff;
+    letter-spacing: 2px;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    
+    &:hover {
+      color: #ffff17;
+      cursor: pointer;
+    }
+  }
+  
+  h2 {
+    font-family: "Montserrat";
+    font-size: 20px;
+    margin-top: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .counter-section {
+      flex-direction: column;
+    }
+  
+    .counter-item {
+      margin-bottom: 2rem;
+    }
+  }
+
+
+  .page_4{
+    
+    /* background-color: #626161; */
+  height: 70vh;
+  background-image: url('../../assets/service-bg1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+  overflow: hidden;
+}
+
+@media (max-width: 768px){
+   .page_4{
+        height: 60vh;
+        background-position: center;
+        /* text-align: center; */
+    }
+    .page_4 h3{
+      font-size: 22px;
+      padding: 0 1rem;
+      text-align: center;
+    }
+    .page_4 p{
+        font-size: 14px;
+        line-height: 24px;
+        padding: 0 1rem;
+        text-align: center;
+    }
+   
+}
+
+.page_4_h3{
+    color: #333;
+    padding: 0px 7rem;
+    font-size: 35px;
+    margin-bottom: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 4rem;
+}
+
+.hr_brand{
+  color: #0077ff;
+  max-width: 100%;
+    width: 135px;
+    border-bottom-width: 2px;
+    border-style: solid;
+    margin-bottom: 30px;
+    margin-left: 7rem;
+}
+
+.page_4_p{
+  margin-top: 2rem;
+  line-height: 28px;
+  font-size: 14px;
+  color: #777777;
+  padding: 0px 7rem;
+}
+
+.buttton_section{
+  margin-left: 7rem;
+}
+
+
+/* team */
+
+.team {
+    background-color: #0062ff;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.team h5 {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-left: 2rem;
+}
+.team span{
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 16px;
+  color: #fff;
+  opacity: 0.8;
+  margin-left: 2rem;
+  font-style: italic;
+}

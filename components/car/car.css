@@ -1,0 +1,59 @@
+.car {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .car-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  .car h3{
+    position: relative;
+    z-index: 1;
+    color: white; 
+    text-align: center;
+    margin-top: 11rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+  }
+
+  .car p{
+    position: relative;
+    z-index: 1; 
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    line-height: 1.8;
+  }
+  .car h4{
+    top: 335.5px;
+    left: 341px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 30px;
+    color: white;
+    font-weight: 300;
+  }
+
+  /* car_2 */
+
+  .car_2{
+    background-color: #f1f1f1;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+ 
+  a{
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }

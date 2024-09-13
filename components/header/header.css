@@ -1,0 +1,249 @@
+body{
+    background-color: #000000;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.hero {
+  position: relative;
+  width: 100%;
+  /* padding-top: 5.8rem; */
+}
+
+.hero .carousel {
+  width: 100%;
+  height: 100vh; /* Adjust to fit your design */
+}
+
+.hero .carousel-item {
+  height:100vh; /* Ensures full height on all screens */
+}
+
+.hero .carousel-item img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.hero .carousel-caption {
+  position: absolute;
+  bottom: 10%; /* Adjust positioning as needed */
+  left: 15%;
+  transform: translateX(0);
+  color: #ffffff;
+}
+
+.hero .carousel-caption .text_h3 {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 53px;
+    line-height: normal;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: start;
+}
+.hero .carousel-caption .text_p_caption {
+    font-family: "Raleway";
+    /* font-weight: 700; */
+    /* font-size: 53px;/ */
+    font-size: 15px;
+    line-height: normal;
+    color: #ffffff;
+    text-align: start;
+}
+
+
+.hero .carousel-caption h3 {
+  text-align: center;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 59px;
+  line-height: normal;
+  color: #1eacc7;
+  animation: slide-in-fwd-center 0.4s cubic-bezier(.25, .46, .45, .94) both;
+}
+
+/* Slide-in animation */
+@keyframes slide-in-fwd-center {
+  0% {
+    transform: translateZ(-1400px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+.slide-in-fwd-center {
+  animation: slide-in-fwd-center 0.4s cubic-bezier(.25, .46, .45, .94) both;
+}
+
+.hero .carousel-caption h5 {
+    text-align: center ;
+    font-family: "Raleway";
+    font-weight: 700;
+    line-height: normal;
+    color: #1eacc7;
+  }
+
+.hero .carousel-caption p {
+  text-align: center ;
+  font-family: "Raleway";
+  font-weight: normal;
+  font-size: 40px;
+  line-height: normal;
+  color: #a6dde8;
+}
+.hero .carousel-caption h1{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 111px;
+    letter-spacing: 3px;
+    line-height: normal;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.hero .button-group {
+  text-align: left;
+}
+
+.hero .btn {
+  margin: 0 10px;
+  font-family: "Lato", Sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 1.1em;
+  letter-spacing: 2px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #ffffff;
+  padding: 21px 32px 19px 32px;
+}
+
+.hero .btn-primary {
+  background-color: #009dffad;
+  border: none;
+}
+
+.hero .btn-secondary {
+  background-color: #ffffff;
+  color: #0015ffc3;
+  border: 1px solid #0015ffc3;
+}
+
+/* Hide the next and previous icons */
+.carousel-control-prev,
+.carousel-control-next {
+  display: none !important;
+}
+
+/* Style the indicators if needed */
+.carousel-indicators {
+  bottom: 10px;
+}
+
+.carousel-indicators li {
+  background-color: #ffffff; /* Default color for indicators */
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  opacity: 0.8;
+}
+
+.carousel-indicators .active {
+  background-color: #0015ffc3; /* Color for the active indicator */
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .hero .carousel-caption {
+    font-size: 1rem; /* Smaller text on small screens */
+    bottom: 20%; /* Adjust positioning as needed */
+    text-align: center; /* Center text on smaller screens */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%; /* Adjust width to fit the screen */
+  }
+  
+  .hero .carousel-caption h3, .hero .carousel-caption p, .button-group {
+    padding-left: 0;
+    text-align: center; /* Center text and buttons */
+  }
+
+  .hero .button-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero .btn {
+    margin: 10px 0; /* Vertical margin between buttons */
+    font-size: 10px; /* Smaller font size */
+    padding: 10px 20px; /* Smaller padding */
+  }
+}
+
+@media (max-width: 576px) {
+  .hero .carousel-caption h3 {
+    font-size: 2rem; 
+  }
+  .hero .carousel-caption p {
+    font-size: 1.25rem; 
+  }
+}
+
+
+/* header_2 */
+
+.header_2 {
+  /* background-color: #1eacc7; */
+  /* background: linear-gradient(to bottom right, #1eacc7, #a6dde8); */
+  background-image: url(../../assets/fleet-bg-hp1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  background-position: center;
+
+}
+
+.text_header_h1{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 42px;
+    line-height: normal;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.header_p_2{
+    font-family: "Raleway";
+    font-weight: normal;
+    font-size: 20px;
+    line-height: normal;
+    color: #ffffff;
+    text-align: center;
+}
+.hr{
+    margin: 0 auto;
+    width: 50%;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #ffffff, rgba(255, 255, 255, 0));
+}
+
+/* 
+.hr{
+    width: 18rem;
+    justify-content: center;
+    margin: 0 auto;
+    height: 7px;
+} */
+

@@ -1,0 +1,275 @@
+/* .car_brand {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7rem;
+}
+
+.brand-logo{
+    flex: 1;
+    max-width: 150px;
+    min-width: 120px;
+    margin: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.brand-logo :hover{
+    opacity: 0.8;
+    transition: opacity 0.2s ease-in-out;
+}
+.brand_h1{
+    color: whitesmoke;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10rem;
+}
+.brand-heading h3 {
+    color: whitesmoke;
+    margin-top: 7rem;
+    text-align: center;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.brand_1{
+    /* padding-right: 2rem; */
+   background-color: #fff;
+}
+.brand_h1{
+    color: #292929;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 7rem;
+}
+
+.brand-heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .brand_h1 {
+    font-weight: 700;
+    color: #292929;
+    border-color: #292929;
+    font-size: 33px;
+    line-height: 34px;
+    font-family: "Montserrat", sans-serif;
+    text-shadow:  1px 5px 2px #36363652;
+    &:hover{
+      color: #1eacc7;
+      transition: color 0.2s ease-in-out;
+      cursor: pointer;
+      text-shadow:  1px 5px 12px #00000088;
+    }
+  }
+  
+  .car_brand {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* margin-right: 2.2rem; */
+  }
+  .car_brand h5{
+    color: #545454;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: "Montserrat", sans-serif;
+
+  }
+  .brand-logo {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .brand-logo img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+  @media (max-width: 1024px) {
+    .brand_h1 {
+      font-size: 22px;
+    }
+    
+    .brand-logo {
+      padding: 8px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .brand_h1 {
+      font-size: 20px;
+    }
+  
+    .brand-logo {
+      padding: 6px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .brand_h1 {
+      font-size: 18px;
+    }
+  
+    .brand-logo {
+      padding: 4px;
+    }
+  }
+
+  .hr_1{
+    margin: 0 auto;
+    width: 50%;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #000000, rgba(255, 255, 255, 0));
+}
+
+
+/* brand_2_section */
+
+.brand_2_section{
+    
+    /* background-color: #626161; */
+  height: 70vh;
+  background-image: url('../../assets/about-us-bg1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+  overflow: hidden;
+}
+
+@media (max-width: 768px){
+   .brand_2_section{
+        height: 60vh;
+        background-position: center;
+        /* text-align: center; */
+    }
+    .brand_2_section h3{
+      font-size: 22px;
+      padding: 0 1rem;
+    }
+    .brand_2_section p{
+        font-size: 14px;
+        line-height: 24px;
+        padding: 0 1rem;
+    }
+   
+}
+
+.brand_section_3{
+    color: #fff;
+    padding: 0px 7rem;
+    font-size: 35px;
+    margin-bottom: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 4rem;
+}
+
+.hr_brand{
+  color: #0077ff;
+  max-width: 100%;
+    width: 135px;
+    border-bottom-width: 2px;
+    border-style: solid;
+    margin-bottom: 30px;
+    margin-left: 7rem;
+}
+
+.brand_2_p{
+  margin-top: 2rem;
+  line-height: 28px;
+  font-size: 14px;
+  color: #c9c9c9;
+  padding: 0px 7rem;
+}
+
+.buttton_section{
+  margin-left: 7rem;
+}
+
+
+
+/* brand_3_section */
+
+
+.brand_3_section {
+  color: #fff;
+  background-color: #1eacc7;
+  padding: 0rem 0;
+}
+
+.brand_3_section_h3, .brand_3_section_p, .button_section_brand_3 {
+  text-align: center;
+}
+
+.brand_3_section_p {
+  padding-left: 0;
+}
+
+@media (min-width: 768px) {
+  .brand_3_section {
+    height: auto;
+  }
+
+  .brand_3_section_p {
+    padding-left: 3rem;
+  }
+
+  .button_section_brand_3 {
+    padding-left: 0;
+  }
+}
+
+
+/* .brand_3_button{
+  color: #007bff;
+  font-size: 16px;
+  border: none;
+  padding: 20px 40px;
+  border-radius: 5px;
+  background-color: #007bff;
+  margin-right: 10px;
+  margin-left: 3rem;
+} */
+
+/* .brand_3_section_43{
+  margin-left: 2rem;
+} */
+
+
+
+/* brand_4_section */
+
+.brand_4_section{
+  color: #fff;
+  background-color: #323232;
+  padding: 2.5rem 0;
+  background-image: url('../../assets/service-title-bg1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+  overflow: hidden;
+}
+.hr_brand_4{
+  margin: 0 auto;
+    width: 20%;
+    border: 2;
+    height: 2px;
+    background-image: linear-gradient(to right, #ff000000, #ffffff, #ffffff00);
+}
+
+.brand-logo img:hover{
+  transform: scale(0.9);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  /* filter: drop-shadow(0 0 0.75rem crimson); */
+}
